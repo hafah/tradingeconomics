@@ -21,7 +21,7 @@ $handle = curl_init();
 curl_close($handle);
 $items = json_decode($data, true);
 
-/* Couldn't find this data so just looked it up */
+/* Couldn't access because api limitations so added this*/
 $population = array(
     "Mexico" => "57420677",
     "Sweden" => "5190000"
